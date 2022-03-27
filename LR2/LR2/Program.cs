@@ -26,16 +26,22 @@ namespace LR2
                 int C = A + B;
                 Console.WriteLine("Ответ: " + C);
             }
-            if(X == "-")
+            if (X == "-")
             {
                 int C = A - B;
                 Console.WriteLine("Ответ: " + C);
             }
-
-
-
+            if (X == "*")
+            {
+                int C = A * B;
+                Console.WriteLine("Ответ: " + C);
+            }
 
             Console.ReadKey();
+
+
+
+            
 
 
         }
