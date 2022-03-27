@@ -21,7 +21,13 @@ namespace LR2
             string Umn;
             string Razd;
 
+            if (X == "*")
+            {
+                int C = A * B;
+                Console.WriteLine("Ответ: " + C);
+            }
 
+            Console.ReadKey();
 
 
 
