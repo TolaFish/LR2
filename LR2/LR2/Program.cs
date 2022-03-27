@@ -22,6 +22,13 @@ namespace LR2
             string Razd;
 
 
+            if(X == "-")
+            {
+                int C = A - B;
+                Console.WriteLine("Ответ: " + C);
+            }
+
+            Console.ReadKey();
 
 
 
